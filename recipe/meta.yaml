@@ -60,7 +60,7 @@ about:
   license_file: LICENSE
   summary: A hyperparameter optimization framework
   doc_url: https://optuna.readthedocs.io/
-  dev_url: https://github.com/pfnet/optuna
+  dev_url: https://github.com/optuna/optuna
 
 extra:
   recipe-maintainers:
