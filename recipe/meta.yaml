@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "0.18.1" %}
+{% set version = "0.19.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: "7f7d92d8d1a3e0c5c3b92b4272a29b110a4a3d53e140a55e564c8756225a0c99"
+  sha256: "cbcdc826915dd07f7df723bec0dd3edd5e61e54c40e7a8b023e19d4434eef602"
 
 build:
   number: 0
@@ -60,7 +60,7 @@ about:
   license_file: LICENSE
   summary: A hyperparameter optimization framework
   doc_url: https://optuna.readthedocs.io/
-  dev_url: https://github.com/pfnet/optuna
+  dev_url: https://github.com/optuna/optuna
 
 extra:
   recipe-maintainers:
