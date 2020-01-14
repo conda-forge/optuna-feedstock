@@ -11,9 +11,9 @@ source:
 
 build:
   number: 0
+  skip: True  # [py27]
   entry_points:
     - optuna = optuna.cli:main
-  noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -24,6 +24,7 @@ requirements:
     - alembic
     - cliff
     - colorlog
+    - joblib
     - numpy
     - python
     - scipy
