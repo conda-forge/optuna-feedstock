@@ -31,7 +31,6 @@ requirements:
     - six
     - sqlalchemy >=1.1.0
     - tqdm
-    - typing
 
 test:
   imports:
