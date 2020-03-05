@@ -1,20 +1,20 @@
 {% set name = "optuna" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: "322df88051b60f3f42c89285a9434f01b650a4b0b3bcd7b46fbc328424df4eda"
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 03355542f297c67093d361221e8b3bd9bebb19e5476800ecc2fb95a346278e89
 
 build:
   number: 0
   entry_points:
     - optuna = optuna.cli:main
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
