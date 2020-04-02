@@ -23,12 +23,12 @@ requirements:
   run:
     - alembic
     - cliff
+    - cmaes
     - colorlog
     - joblib
     - numpy
     - python >=3.5
     - scipy
-    - six
     - sqlalchemy >=1.1.0
     - tqdm
 
