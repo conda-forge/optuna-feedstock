@@ -116,10 +116,12 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@HideakiImamura](https://github.com/HideakiImamura/)
 * [@g-votte](https://github.com/g-votte/)
 * [@hvy](https://github.com/hvy/)
 * [@iwiwi](https://github.com/iwiwi/)
 * [@sile](https://github.com/sile/)
 * [@smly](https://github.com/smly/)
 * [@toshihikoyanase](https://github.com/toshihikoyanase/)
+* [@ytsmiling](https://github.com/ytsmiling/)
 
