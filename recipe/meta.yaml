@@ -38,9 +38,9 @@ test:
     - optuna.integration
     - optuna.pruners
     - optuna.samplers
-    - optuna.samplers.tpe
+    - optuna.samplers._tpe
     - optuna.storages
-    - optuna.storages.rdb
+    - optuna.storages._rdb
     - optuna.testing
     - tests
     - tests.integration_tests
