@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "1.5.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a8847e0d13364a7e95a7dee31035a1811a2b1395feb2cf98cce7e62affb529df
+  sha256: 2c2006d4da9db73795c6537890b1aebddd0b826624e6ea0acc20f99ba6390494
 
 build:
   number: 0
