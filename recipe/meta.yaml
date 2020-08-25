@@ -10,7 +10,7 @@ source:
   sha256: 2c2006d4da9db73795c6537890b1aebddd0b826624e6ea0acc20f99ba6390494
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - optuna = optuna.cli:main
   noarch: python
@@ -23,12 +23,13 @@ requirements:
   run:
     - alembic
     - cliff
-    - cmaes
+    - cmaes >=0.5.1
     - colorlog
     - joblib
     - numpy
+    - packaging >=20.0
     - python >=3.5
-    - scipy
+    - scipy !=1.4.0
     - sqlalchemy >=1.1.0
     - tqdm
 
