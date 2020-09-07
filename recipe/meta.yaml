@@ -23,7 +23,7 @@ requirements:
   run:
     - alembic
     - cliff
-    - cmaes >=0.5.1
+    - cmaes >=0.6.0
     - colorlog
     - joblib
     - numpy
