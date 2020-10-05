@@ -36,17 +36,7 @@ requirements:
 test:
   imports:
     - optuna
-    - optuna.integration
-    - optuna.pruners
-    - optuna.samplers
-    - optuna.storages
-    - optuna.testing
     - tests
-    - tests.integration_tests
-    - tests.pruners_tests
-    - tests.samplers_tests
-    - tests.storages_tests
-    - tests.storages_tests.rdb_tests
   commands:
     - optuna --help
   source_files:
