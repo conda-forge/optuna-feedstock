@@ -5,11 +5,13 @@ Home: https://optuna.org/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/optuna-feedstock/blob/master/LICENSE.txt)
 
 Summary: A hyperparameter optimization framework
 
+Development: https://github.com/optuna/optuna
 
+Documentation: https://optuna.readthedocs.io/
 
 Current build status
 ====================
