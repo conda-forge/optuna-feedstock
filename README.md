@@ -122,6 +122,7 @@ Feedstock Maintainers
 * [@g-votte](https://github.com/g-votte/)
 * [@hvy](https://github.com/hvy/)
 * [@iwiwi](https://github.com/iwiwi/)
+* [@not522](https://github.com/not522)
 * [@sile](https://github.com/sile/)
 * [@smly](https://github.com/smly/)
 * [@toshihikoyanase](https://github.com/toshihikoyanase/)
