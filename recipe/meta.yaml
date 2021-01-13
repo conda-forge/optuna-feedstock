@@ -36,11 +36,8 @@ requirements:
 test:
   imports:
     - optuna
-    - tests
   commands:
     - optuna --help
-  source_files:
-    - tests
 
 about:
   home: https://optuna.org/
