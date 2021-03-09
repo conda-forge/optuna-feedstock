@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f6e722e22a4bc40bfc3415440e81b1a2ecb2e516c77498073a20dd415967bddf
+  sha256: 57ad041fd6693e354ea54a9ff1354b942a81ab866cf863cc06a1b67a8dea0ca2
 
 build:
   number: 0
@@ -23,10 +23,9 @@ requirements:
   run:
     - alembic
     - cliff
-    - cmaes >=0.6.0
+    - cmaes >=0.8.2
     - colorlog
-    - joblib
-    - numpy
+    - numpy <1.20.0
     - packaging >=20.0
     - python >=3.6
     - scipy !=1.4.0
