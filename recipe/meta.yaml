@@ -10,7 +10,7 @@ source:
   sha256: 57ad041fd6693e354ea54a9ff1354b942a81ab866cf863cc06a1b67a8dea0ca2
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - optuna = optuna.cli:main
   noarch: python
