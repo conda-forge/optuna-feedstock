@@ -25,7 +25,7 @@ requirements:
     - cliff
     - cmaes >=0.8.2
     - colorlog
-    - numpy <1.20.0
+    - numpy
     - packaging >=20.0
     - python >=3.6
     - scipy !=1.4.0
