@@ -148,12 +148,12 @@ Feedstock Maintainers
 =====================
 
 * [@HideakiImamura](https://github.com/HideakiImamura/)
+* [@c-bata](https://github.com/c-bata/)
+* [@contramundum53](https://github.com/contramundum53/)
 * [@g-votte](https://github.com/g-votte/)
+* [@himkt](https://github.com/himkt/)
 * [@hvy](https://github.com/hvy/)
 * [@iwiwi](https://github.com/iwiwi/)
+* [@knshnb](https://github.com/knshnb/)
 * [@not522](https://github.com/not522/)
-* [@sile](https://github.com/sile/)
-* [@smly](https://github.com/smly/)
 * [@toshihikoyanase](https://github.com/toshihikoyanase/)
-* [@ytsmiling](https://github.com/ytsmiling/)
-
