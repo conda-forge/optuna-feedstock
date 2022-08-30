@@ -28,9 +28,10 @@ requirements:
     - numpy
     - packaging >=20.0
     - python >=3.6
-    - scipy !=1.4.0
+    - scipy >=1.7.0,<1.9.0
     - sqlalchemy >=1.1.0
     - tqdm
+    - typing_extensions>=3.10.0.0
     - PyYAML
 
 test:
