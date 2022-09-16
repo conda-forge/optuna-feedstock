@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9a5e8f6497114aeca060f19e4eb7c52ea616566b7f38f8266cff1331582484ef
+  sha256: 617282200b9af3f71c986de05f730f98a70fa398821c909933cf7bbbe593d022
 
 build:
   number: 0
@@ -31,7 +31,6 @@ requirements:
     - scipy >=1.7.0,<1.9.0
     - sqlalchemy >=1.1.0
     - tqdm
-    - typing_extensions >=3.10.0.0
     - PyYAML
 
 test:
