@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 617282200b9af3f71c986de05f730f98a70fa398821c909933cf7bbbe593d022
+  sha256: c7e5956d7098605b435677fe469b6ba81249e259c3b834da5bc93d1c6a18903a
 
 build:
   number: 0
@@ -21,15 +21,16 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - alembic
+    - alembic >=1.5.0
     - cliff
     - cmaes >=0.8.2
     - colorlog
+    - importlib-metadata <5.0.0
     - numpy
     - packaging >=20.0
     - python >=3.6
     - scipy >=1.7.0,<1.9.0
-    - sqlalchemy >=1.1.0
+    - sqlalchemy >=1.3.0
     - tqdm
     - PyYAML
 
