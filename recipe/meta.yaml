@@ -22,7 +22,6 @@ requirements:
     - python >=3.7
   run:
     - alembic >=1.5.0
-    - cmaes >=0.9.1
     - colorlog
     - numpy
     - packaging >=20.0
