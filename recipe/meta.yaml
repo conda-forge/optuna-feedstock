@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "3.5.0" %}
+{% set version = "3.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ca9e1ce16aa6c6a5af0e1cc1d0cbcd98eb1c75b6a2f06be6bd9c0c5ab0698724
+  sha256: 0f023303d9212916e41dce960ed4bcdf3034daac4c58160bc9262ea473484c9c
 
 build:
   number: 0
@@ -48,6 +48,7 @@ about:
 extra:
   recipe-maintainers:
     - eukaryo
+    - y0z
     - nabenabe0928
     - c-bata
     - contramundum53
