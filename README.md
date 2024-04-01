@@ -150,6 +150,7 @@ Feedstock Maintainers
 * [@HideakiImamura](https://github.com/HideakiImamura/)
 * [@c-bata](https://github.com/c-bata/)
 * [@contramundum53](https://github.com/contramundum53/)
+* [@eukaryo](https://github.com/eukaryo/)
 * [@g-votte](https://github.com/g-votte/)
 * [@himkt](https://github.com/himkt/)
 * [@hvy](https://github.com/hvy/)
@@ -160,5 +161,6 @@ Feedstock Maintainers
 * [@sile](https://github.com/sile/)
 * [@smly](https://github.com/smly/)
 * [@toshihikoyanase](https://github.com/toshihikoyanase/)
+* [@y0z](https://github.com/y0z/)
 * [@ytsmiling](https://github.com/ytsmiling/)
 
