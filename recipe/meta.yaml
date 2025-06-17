@@ -1,5 +1,5 @@
 {% set name = "optuna" %}
-{% set version = "4.3.0" %}
+{% set version = "4.4.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b3866842a84bc0bbb9906363bd846cfc39d09d3196265354bfdfda6a2f123b84
+  sha256: a9029f6a92a1d6c8494a94e45abd8057823b535c2570819072dbcdc06f1c1da4
 
 build:
   number: 0
