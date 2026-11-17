@@ -1,6 +1,6 @@
 {% set name = "optuna" %}
-{% set version = "5.0.0" %}
-{% set python_min = "3.9" %}
+{% set version = "5.1.0" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 358bb878b7b1e20e90dc944ac4261796dd3d5c2b7860aa960a08fc10e0b5beff
+  sha256: 6a4eed79680fdb4f0a70e9a9a59530ae8e9e976db1362e4660de1fdd89434e67
 
 build:
   number: 0
